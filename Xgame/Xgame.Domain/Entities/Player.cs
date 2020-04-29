@@ -1,4 +1,6 @@
 ﻿using System;
+using Xgame.Domain.Enums;
+using Xgame.Domain.ValueObjects;
 
 namespace Xgame.Domain.Entities
 {
@@ -6,13 +8,13 @@ namespace Xgame.Domain.Entities
     {
         public Guid Id { get; set; }
 
-        public string FirsName { get; set; }
+        public Name Name { get; set; }
 
-        public string LastName { get; set; }
-
-        public string Email { get; set; }
+        public Email Email { get; set; }
 
         public string Password { get; set; }
+
+        public EnumPlayerStatus Status { get; set; }
 
     }
 }

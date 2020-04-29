@@ -2,7 +2,7 @@
 
 namespace Xgame.Domain.Entities
 {
-    class ConsoleGame
+    public class ConsoleGame
     {
         public Guid  Id { get; set; }
 
